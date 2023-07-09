@@ -1,2 +1,6 @@
-# Statistics-and-Regression
-World Happiness Report Analysis
+# Abstract
+
+The 2019 World Happiness Report is a comprehensive survey of global happiness levels that ranks 156 countries by how happy their citizens perceive themselves to be. The report is based on data from the Gallup World Poll, which includes responses from approximately 1,000 individuals in each country. The report focuses on six key variables that contribute to happiness: income, healthy life expectancy, social support, freedom, trust, and generosity. The report also includes a discussion of the various factors that contribute to happiness, such as personal characteristics, societal factors, and environmental factors. The report concludes with a series of recommendations for policymakers and individuals on how to increase happiness levels at the national and personal levels.
+
+In this analysis, a variety of statistical tests were conducted to examine the relationships between happiness scores and various predictor variables. Linear regression was used to identify significant predictor variables and the strength of their relationship with happiness scores. Tree fitting and logistic regression were also employed to compare the accuracy of predictions made by each model. To determine the best model, cross validation with t-tests were used to calculate error rates and compare the results. The results of these tests suggest that GDP per capita is the strongest predictor of happiness, while generosity and perceptions of corruption had little to no impact. Additionally, multicollinearity was found between GDP, social support, and life expectancy, highlighting the importance of addressing potential collinearity when building predictive models.
+
